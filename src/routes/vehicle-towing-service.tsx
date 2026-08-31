@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-towing-service")({
   head: () => ({
-    meta: pageMeta({ title: "Vehicle Towing Service | Fast Recovery Pro", description: "Safe, reliable towing for cars, vans and light vehicles wherever you've stopped, with fixed-fee quotes.", path: "/vehicle-towing-service", image: IMG.vehicleTowingService }),
+    meta: pageMeta({ title: "Vehicle Towing Service | Quick Auto Recovery", description: "Safe, reliable towing for cars, vans and light vehicles wherever you've stopped, with fixed-fee quotes.", path: "/vehicle-towing-service", image: IMG.vehicleTowingService }),
     links: [{ rel: "canonical", href: "/vehicle-towing-service" }],
   }),
   component: VehicleTowingService,
@@ -16,7 +16,7 @@ function VehicleTowingService() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Vehicle Towing Service (خدمة سحب المركبات)" hero={IMG.vehicleTowingService}
+        eyebrow="Service" title="Vehicle Towing Service" hero={IMG.vehicleTowingService}
         description="From a quick tow around the corner to a longer trip across town, our towing service moves your vehicle safely using the right equipment for the job."
         benefits={["Suitable for cars, vans and light commercial vehicles", "Wheel-lift and flatbed options available", "Careful handling to avoid further damage", "Local and long-distance towing", "Fully insured drivers and equipment", "Simple, fixed-fee quotes"]}
         why={[

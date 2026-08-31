@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/luxury-sports-car-transport")({
   head: () => ({
-    meta: pageMeta({ title: "Luxury & Sports Car Transport | Fast Recovery Pro", description: "Soft-tie flatbed transport built around high-value performance and luxury cars.", path: "/luxury-sports-car-transport", image: IMG.luxurySportsCarTransport }),
+    meta: pageMeta({ title: "Luxury & Sports Car Transport | Quick Auto Recovery", description: "Soft-tie flatbed transport built around high-value performance and luxury cars.", path: "/luxury-sports-car-transport", image: IMG.luxurySportsCarTransport }),
     links: [{ rel: "canonical", href: "/luxury-sports-car-transport" }],
   }),
   component: LuxurySportsCarTransport,
@@ -16,7 +16,7 @@ function LuxurySportsCarTransport() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Luxury & Sports Car Transport (نقل السيارات الفاخرة والرياضية)" hero={IMG.luxurySportsCarTransport}
+        eyebrow="Service" title="Luxury & Sports Car Transport" hero={IMG.luxurySportsCarTransport}
         description="Prestige and performance cars need more than a standard tow. We use soft-tie flatbed transport and extra care at every step to move your luxury or sports car without a mark."
         benefits={["Soft-tie strapping to protect bodywork and wheels", "Low-clearance-friendly loading ramps", "Experienced operators trained on high-value vehicles", "Point-to-point transport for sales, shows or storage", "Discreet, professional service", "Optional photo check-in before transport"]}
         why={[

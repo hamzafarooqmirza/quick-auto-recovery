@@ -1,5 +1,5 @@
 export const IMG = {
-  logo: "/images/logo.webp",
+  logo: "/images/logo.svg",
   hero: "/images/hero.webp",
   emergencyCarRecovery: "/images/emergency-car-recovery.webp",
   vehicleTowingService: "/images/vehicle-towing-service.webp",
@@ -21,9 +21,9 @@ export const IMG = {
   carAndTowingVan: "/images/car-and-towing-van.webp",
 };
 
-export const PHONE = "+971509495250";
-export const PHONE_DISPLAY = "050 9495250";
-export const WHATSAPP = "https://wa.me/971509495250";
-export const EMAIL = "Amirbahi3828@gmail.com";
-export const ADDRESS = "Abu Dhabi, UAE";
-export const BRAND = "Fast Recovery Pro";
+export const PHONE = "+447927825084";
+export const PHONE_DISPLAY = "07927 825084";
+export const WHATSAPP = "https://wa.me/447927825084";
+export const EMAIL = "Abbasfarooq24@gmail.com";
+export const ADDRESS = "Bradford, West Yorkshire, UK";
+export const BRAND = "Quick Auto Recovery";

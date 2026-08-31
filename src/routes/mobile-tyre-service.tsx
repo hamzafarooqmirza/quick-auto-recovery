@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/mobile-tyre-service")({
   head: () => ({
-    meta: pageMeta({ title: "Mobile Tyre Service UAE | Fast Recovery Pro", description: "Flat tyre or blowout? Our fully-equipped mobile tyre van comes to you — replacements, repairs and wheel changes 24/7.", path: "/mobile-tyre-service", image: IMG.carAndTowingVan }),
+    meta: pageMeta({ title: "Mobile Tyre Service | Quick Auto Recovery", description: "Flat tyre or blowout? Our fully-equipped mobile tyre van comes to you — replacements, repairs and wheel changes 24/7.", path: "/mobile-tyre-service", image: IMG.carAndTowingVan }),
     links: [{ rel: "canonical", href: "/mobile-tyre-service" }],
   }),
   component: MobileTyre,
@@ -17,7 +17,7 @@ function MobileTyre() {
     <SiteLayout>
       <ServicePageTemplate
         eyebrow="Service" title="Mobile Tyre Service" hero={IMG.carAndTowingVan}
-        description="Our fully-kitted mobile tyre van brings the workshop to you — we balance, fit and swap tyres anywhere across the UAE."
+        description="Our fully-kitted mobile tyre van brings the workshop to you — we balance, fit and swap tyres anywhere across West Yorkshire."
         benefits={["Flat tyre assistance, 24/7", "On-site tyre replacement and fitting", "Wheel changing and rotation", "Full tyre balancing with mobile equipment", "Suits cars, vans and light commercials", "Save the cost and hassle of being towed"]}
         why={[
           { title: "Fully Mobile Workshop", desc: "Professional tyre changer and balancer onboard." },

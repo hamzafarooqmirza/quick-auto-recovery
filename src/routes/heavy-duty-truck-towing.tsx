@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/heavy-duty-truck-towing")({
   head: () => ({
-    meta: pageMeta({ title: "Heavy-Duty & Truck Towing | Fast Recovery Pro", description: "Rated equipment and experienced crews for trucks, lorries and heavy commercial vehicles.", path: "/heavy-duty-truck-towing", image: IMG.heavyDutyTruckTowing }),
+    meta: pageMeta({ title: "Heavy-Duty & Truck Towing | Quick Auto Recovery", description: "Rated equipment and experienced crews for trucks, lorries and heavy commercial vehicles.", path: "/heavy-duty-truck-towing", image: IMG.heavyDutyTruckTowing }),
     links: [{ rel: "canonical", href: "/heavy-duty-truck-towing" }],
   }),
   component: HeavyDutyTruckTowing,
@@ -16,7 +16,7 @@ function HeavyDutyTruckTowing() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Heavy-Duty & Truck Towing (سحب الشاحنات والمركبات الثقيلة)" hero={IMG.heavyDutyTruckTowing}
+        eyebrow="Service" title="Heavy-Duty & Truck Towing" hero={IMG.heavyDutyTruckTowing}
         description="Heavier vehicles need heavier-rated equipment. Our heavy-duty towing service is built around the size, weight and complexity of trucks and large commercial vehicles."
         benefits={["Heavy-duty tow trucks rated for large commercial vehicles", "Experienced crews trained on truck and lorry recoveries", "Suitable for breakdowns, accidents and abandoned heavy vehicles", "Load-securing appropriate to vehicle size and cargo", "Coordination with hauliers and fleet operators", "Available for scheduled and emergency heavy recoveries"]}
         why={[

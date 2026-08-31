@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/breakdown-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Breakdown Recovery | Fast Recovery Pro", description: "Engine trouble, flat battery, or a car that won't start — we'll get you and your vehicle home safely.", path: "/breakdown-recovery", image: IMG.breakdownRecovery }),
+    meta: pageMeta({ title: "Breakdown Recovery | Quick Auto Recovery", description: "Engine trouble, flat battery, or a car that won't start — we'll get you and your vehicle home safely.", path: "/breakdown-recovery", image: IMG.breakdownRecovery }),
     links: [{ rel: "canonical", href: "/breakdown-recovery" }],
   }),
   component: BreakdownRecovery,
@@ -16,7 +16,7 @@ function BreakdownRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Breakdown Recovery (انتشال حالات الأعطال)" hero={IMG.breakdownRecovery}
+        eyebrow="Service" title="Breakdown Recovery" hero={IMG.breakdownRecovery}
         description="Breakdowns rarely happen at a convenient time. Our recovery team reaches stranded drivers quickly and takes both you and your vehicle to safety."
         benefits={["Roadside diagnosis where possible", "Recovery to your home, garage or a safe location", "Space for driver and passengers in the truck", "Support for mechanical, electrical and tyre-related breakdowns", "Available on motorways, city streets and rural roads", "No obligation, no-fix-no-fee assessment"]}
         why={[

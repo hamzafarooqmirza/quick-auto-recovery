@@ -8,7 +8,7 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
-    meta: pageMeta({ title: "Contact Us — Fast Recovery Pro", description: "Call, WhatsApp or message Fast Recovery Pro 24/7 for emergency roadside assistance across the UAE.", path: "/contact", image: IMG.roadsideAssistance }),
+    meta: pageMeta({ title: "Contact Us — Quick Auto Recovery", description: "Call, WhatsApp or message Quick Auto Recovery 24/7 for emergency roadside assistance across West Yorkshire.", path: "/contact", image: IMG.roadsideAssistance }),
     links: [{ rel: "canonical", href: "/contact" }],
   }),
   component: ContactPage,
@@ -37,7 +37,7 @@ function ContactPage() {
             ))}
           </div>
           <div className="mt-6 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
-            <iframe title="Map" src="https://www.openstreetmap.org/export/embed.html?bbox=54.2273%2C24.3039%2C54.5273%2C24.6039&layer=mapnik" className="h-full w-full" loading="lazy" />
+            <iframe title="Map" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.15%2C53.45%2C-0.30%2C54.65&layer=mapnik" className="h-full w-full" loading="lazy" />
           </div>
         </div>
         <ContactForm />

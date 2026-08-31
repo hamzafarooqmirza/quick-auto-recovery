@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/terms")({
   head: () => ({
-    meta: pageMeta({ title: "Terms & Conditions — Fast Recovery Pro", description: "The terms governing the use of Fast Recovery Pro services.", path: "/terms" }),
+    meta: pageMeta({ title: "Terms & Conditions — Quick Auto Recovery", description: "The terms governing the use of Quick Auto Recovery services.", path: "/terms" }),
     links: [{ rel: "canonical", href: "/terms" }],
   }),
   component: TermsPage,

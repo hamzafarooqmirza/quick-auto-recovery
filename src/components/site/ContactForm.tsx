@@ -1,23 +1,12 @@
 import { useState } from "react";
 import { WHATSAPP } from "@/lib/assets";
 
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void;
-  }
-}
-
 export function ContactForm({ defaultService }: { defaultService?: string }) {
   const [sent, setSent] = useState(false);
   function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     const msg = `Hi, I need ${data.get("service") || "assistance"}.%0AName: ${data.get("name")}%0APhone: ${data.get("phone")}%0ALocation: ${data.get("location")}%0ADetails: ${data.get("message")}`;
-    window.gtag?.("event", "conversion", {
-      send_to: "AW-18338363085/AtccCPfJo9QcEM3ttKhE",
-      value: 1.0,
-      currency: "AED",
-    });
     window.open(`${WHATSAPP}?text=${msg}`, "_blank");
     setSent(true);
   }

@@ -11,8 +11,8 @@ import { Phone, MessageCircle, Clock, Zap, Users, Banknote, ShieldCheck, Star, P
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: pageMeta({
-      title: "Fast Recovery Pro — 24/7 Roadside Assistance UAE",
-      description: "The UAE's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
+      title: "Quick Auto Recovery — 24/7 Roadside Assistance West Yorkshire",
+      description: "West Yorkshire's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
       path: "/",
       image: IMG.hero,
     }),
@@ -26,7 +26,7 @@ function Home() {
     <SiteLayout>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={IMG.hero} alt="Fast Recovery Pro tow truck recovering a vehicle in UAE" className="h-full w-full object-cover opacity-50" />
+          <img src={IMG.hero} alt="Quick Auto Recovery tow truck recovering a vehicle in West Yorkshire" className="h-full w-full object-cover opacity-50" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-10 md:py-14">
@@ -39,7 +39,7 @@ function Home() {
             & Towing
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
-            Stuck on the road? Fast Recovery Pro is the UAE's go-to team for fast, professional roadside help — anywhere, anytime.
+            Stuck on the road? Quick Auto Recovery is West Yorkshire's go-to team for fast, professional roadside help — anywhere, anytime.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-base font-semibold text-primary-foreground shadow-xl shadow-primary/40 hover:scale-[1.02] transition">
@@ -87,11 +87,11 @@ function Home() {
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
             { i: Clock, t: "Available 24/7", d: "Day or night, weekend or holiday — we're always one call away." },
-            { i: Zap, t: "Fast Response", d: "Average 20-40min arrival across Abu Dhabi and the wider Emirates." },
+            { i: Zap, t: "Fast Response", d: "Average 20-40min arrival across Bradford, Leeds and the wider West Yorkshire area." },
             { i: Users, t: "Experienced Team", d: "Trained operators who handle your vehicle with the utmost care." },
             { i: Banknote, t: "Affordable Prices", d: "Fair, transparent pricing with no hidden fees, ever." },
             { i: ShieldCheck, t: "Reliable Service", d: "Modern fleet, full insurance and a track record you can trust." },
-            { i: Star, t: "Customer Satisfaction", d: "Hundreds of five-star reviews from happy customers across the UAE." },
+            { i: Star, t: "Customer Satisfaction", d: "Hundreds of five-star reviews from happy customers across West Yorkshire." },
           ].map((w) => (
             <div key={w.t} className="rounded-3xl border border-border bg-card/60 p-7 backdrop-blur-xl transition hover:border-primary/50">
               <div className="grid h-12 w-12 place-items-center rounded-2xl bg-primary/15 text-primary"><w.i className="h-6 w-6" /></div>
@@ -126,9 +126,9 @@ function Home() {
         <h2 className="text-4xl md:text-5xl font-black text-center">What Our Customers Say</h2>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
-            { n: "Sara Al Mansoori", l: "Abu Dhabi", t: "Broke down on Sheikh Zayed Road at 11pm — they were with me in 12 minutes. Professional and so kind." },
-            { n: "Omar Al Shamsi", l: "Al Ain", t: "Best price I got for a long-distance recovery. Friendly driver, no nonsense. Highly recommend." },
-            { n: "Fatima Khan", l: "Dubai", t: "Flat tyre on the school run. They came out, swapped it, and I was sorted in 20 minutes. Lifesavers." },
+            { n: "Sarah Whitfield", l: "Bradford", t: "Broke down on the ring road at 11pm — they were with me in 12 minutes. Professional and so kind." },
+            { n: "Imran Hussain", l: "Leeds", t: "Best price I got for a long-distance recovery. Friendly driver, no nonsense. Highly recommend." },
+            { n: "Fatima Khan", l: "Huddersfield", t: "Flat tyre on the school run. They came out, swapped it, and I was sorted in 20 minutes. Lifesavers." },
           ].map((r) => (
             <div key={r.n} className="rounded-3xl border border-border bg-card/60 p-7 backdrop-blur-xl">
               <div className="flex gap-1 text-primary">{Array.from({ length: 5 }).map((_, i) => <Star key={i} className="h-4 w-4 fill-current" />)}</div>
@@ -144,7 +144,7 @@ function Home() {
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
           {[IMG.hero, IMG.roadsideAssistance, IMG.carTowing, IMG.carAndTowingVan, IMG.breakdownRecoveryAlt, IMG.emergencyCarRecovery].map((src, i) => (
             <div key={i} className="overflow-hidden rounded-2xl border border-border aspect-square">
-              <img src={src} alt={`Fast Recovery Pro fleet photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition hover:scale-105 duration-700" />
+              <img src={src} alt={`Quick Auto Recovery fleet photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition hover:scale-105 duration-700" />
             </div>
           ))}
         </div>
@@ -159,7 +159,7 @@ function Home() {
           <h2 className="mt-3 text-4xl md:text-5xl font-black">Need help right now?</h2>
           <p className="mt-4 text-muted-foreground">Send us a message or call directly. Our dispatchers are standing by 24/7.</p>
           <div className="mt-8 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
-            <iframe title="Service area map" src="https://www.openstreetmap.org/export/embed.html?bbox=54.2273%2C24.3039%2C54.5273%2C24.6039&layer=mapnik" className="h-full w-full" loading="lazy" />
+            <iframe title="Service area map" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.15%2C53.45%2C-0.30%2C54.65&layer=mapnik" className="h-full w-full" loading="lazy" />
           </div>
         </div>
         <ContactForm />

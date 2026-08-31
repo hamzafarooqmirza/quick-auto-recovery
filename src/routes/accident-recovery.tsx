@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/accident-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Accident Recovery | Fast Recovery Pro", description: "Sensitive, professional recovery after a collision, coordinated with insurers when needed.", path: "/accident-recovery", image: IMG.accidentRecovery }),
+    meta: pageMeta({ title: "Accident Recovery | Quick Auto Recovery", description: "Sensitive, professional recovery after a collision, coordinated with insurers when needed.", path: "/accident-recovery", image: IMG.accidentRecovery }),
     links: [{ rel: "canonical", href: "/accident-recovery" }],
   }),
   component: AccidentRecovery,
@@ -16,7 +16,7 @@ function AccidentRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Accident Recovery (انتشال حوادث السيارات)" hero={IMG.accidentRecovery}
+        eyebrow="Service" title="Accident Recovery" hero={IMG.accidentRecovery}
         description="After an accident, our team recovers your vehicle safely and sensitively, working alongside insurers and repairers so you can focus on what matters."
         benefits={["Available 24/7 for accident scenes", "Experience working with insurance companies", "Safe recovery of damaged or non-drivable vehicles", "Secure transport to a garage, compound or home", "Clear communication throughout the process", "Compassionate, professional operators"]}
         why={[

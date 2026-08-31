@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/recovery-to-garage")({
   head: () => ({
-    meta: pageMeta({ title: "Recovery to Garage/Workshop | Fast Recovery Pro", description: "We'll take your vehicle straight to your trusted garage or workshop for repair.", path: "/recovery-to-garage", image: IMG.recoveryToGarage }),
+    meta: pageMeta({ title: "Recovery to Garage/Workshop | Quick Auto Recovery", description: "We'll take your vehicle straight to your trusted garage or workshop for repair.", path: "/recovery-to-garage", image: IMG.recoveryToGarage }),
     links: [{ rel: "canonical", href: "/recovery-to-garage" }],
   }),
   component: RecoveryToGarage,
@@ -16,7 +16,7 @@ function RecoveryToGarage() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Recovery to Garage/Workshop (النقل إلى الكراج / الورشة)" hero={IMG.recoveryToGarage}
+        eyebrow="Service" title="Recovery to Garage/Workshop" hero={IMG.recoveryToGarage}
         description="Already have a garage you trust? We'll recover your vehicle directly to their workshop, coordinating timing so it arrives when they're ready for it."
         benefits={["Direct transport to any garage or workshop nationwide", "Timing coordinated with your mechanic where possible", "Suitable for breakdowns, accidents and scheduled repairs", "Careful loading to avoid further damage in transit", "Drop-off confirmation once delivered", "Works with independent garages and franchised workshops"]}
         why={[

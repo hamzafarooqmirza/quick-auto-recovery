@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/flatbed-towing")({
   head: () => ({
-    meta: pageMeta({ title: "Flatbed Towing Service | Fast Recovery Pro", description: "Zero-contact, wheels-off-the-ground transport for vehicles that need the gentlest ride.", path: "/flatbed-towing", image: IMG.flatbedTowing }),
+    meta: pageMeta({ title: "Flatbed Towing Service | Quick Auto Recovery", description: "Zero-contact, wheels-off-the-ground transport for vehicles that need the gentlest ride.", path: "/flatbed-towing", image: IMG.flatbedTowing }),
     links: [{ rel: "canonical", href: "/flatbed-towing" }],
   }),
   component: FlatbedTowing,
@@ -16,7 +16,7 @@ function FlatbedTowing() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Flatbed Towing Service (خدمة السحب بالونش المسطح)" hero={IMG.flatbedTowing}
+        eyebrow="Service" title="Flatbed Towing Service" hero={IMG.flatbedTowing}
         description="Our tilt-and-slide flatbed trucks load your vehicle without towing it on its own wheels, making this the safest option for low vehicles, non-runners and high-value cars."
         benefits={["Hydraulic tilt-and-slide loading", "No wheels-on-road towing, reducing wear and risk", "Ideal for low-clearance and non-running vehicles", "Secure strapping and soft-tie systems", "Suitable for local and long-distance moves", "Ramps rated for a wide range of vehicle weights"]}
         why={[

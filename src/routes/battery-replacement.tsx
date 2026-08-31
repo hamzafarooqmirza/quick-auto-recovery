@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/battery-replacement")({
   head: () => ({
-    meta: pageMeta({ title: "Mobile Battery Replacement UAE | Fast Recovery Pro", description: "On-site car battery testing and replacement across the UAE. Quality batteries fitted at your home, workplace or roadside.", path: "/battery-replacement", image: IMG.breakdownRecoveryAlt }),
+    meta: pageMeta({ title: "Mobile Battery Replacement | Quick Auto Recovery", description: "On-site car battery testing and replacement across West Yorkshire. Quality batteries fitted at your home, workplace or roadside.", path: "/battery-replacement", image: IMG.breakdownRecoveryAlt }),
     links: [{ rel: "canonical", href: "/battery-replacement" }],
   }),
   component: BatteryReplacement,
