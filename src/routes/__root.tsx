@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { absoluteUrl, SITE_URL } from "../lib/seo";
 
 function NotFoundComponent() {
   return (
@@ -82,13 +83,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "theme-color", content: "#0a0a14" },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Quick Auto Recovery" },
+      { property: "og:url", content: SITE_URL },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:title", content: "Quick Auto Recovery — 24/7 Roadside Assistance West Yorkshire" },
       { name: "twitter:title", content: "Quick Auto Recovery — 24/7 Roadside Assistance West Yorkshire" },
       { property: "og:description", content: "24/7 emergency roadside assistance, vehicle recovery, jump start, battery replacement, mobile tyre service and secure vehicle storage across Bradford, Leeds, Halifax, Huddersfield and West Yorkshire." },
       { name: "twitter:description", content: "24/7 emergency roadside assistance, vehicle recovery, jump start, battery replacement, mobile tyre service and secure vehicle storage across Bradford, Leeds, Halifax, Huddersfield and West Yorkshire." },
-      { property: "og:image", content: "/og-image.webp" },
-      { name: "twitter:image", content: "/og-image.webp" },
+      { property: "og:image", content: absoluteUrl("/og-image.webp") },
+      { name: "twitter:image", content: absoluteUrl("/og-image.webp") },
     ],
     links: [
       {

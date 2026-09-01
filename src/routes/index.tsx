@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
       title: "Quick Auto Recovery — 24/7 Roadside Assistance West Yorkshire",
       description: "West Yorkshire's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
       path: "/",
-      image: IMG.hero,
+      image: "/og-image.webp",
     }),
     links: [{ rel: "canonical", href: "/" }],
   }),
