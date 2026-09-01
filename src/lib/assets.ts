@@ -21,9 +21,9 @@ export const IMG = {
   carAndTowingVan: "/images/car-and-towing-van.webp",
 };
 
-export const PHONE = "+447927825084";
-export const PHONE_DISPLAY = "07927 825084";
-export const WHATSAPP = "https://wa.me/447927825084";
+export const PHONE = "+447928725084";
+export const PHONE_DISPLAY = "07928 725084";
+export const WHATSAPP = "https://wa.me/447928725084";
 export const EMAIL = "Abbasfarooq24@gmail.com";
 export const ADDRESS = "Bradford, West Yorkshire, UK";
 export const BRAND = "Quick Auto Recovery";
