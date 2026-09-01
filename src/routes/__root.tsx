@@ -107,7 +107,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@context": "https://schema.org",
           "@type": "AutomotiveBusiness",
           name: "Quick Auto Recovery",
-          telephone: "+447927825084",
+          telephone: "+447928725084",
           email: "Abbasfarooq24@gmail.com",
           areaServed: ["Bradford", "Leeds", "Halifax", "Huddersfield", "Dewsbury", "Wakefield", "York", "Hull", "Doncaster", "Middlesbrough", "Oldham"],
           address: { "@type": "PostalAddress", addressCountry: "GB", addressRegion: "West Yorkshire", addressLocality: "Bradford" },
