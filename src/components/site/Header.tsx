@@ -17,9 +17,9 @@ export function Header() {
   const [open, setOpen] = useState(false);
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-2 sm:px-6">
         <Link to="/" className="flex items-center gap-3 shrink-0">
-          <img src={IMG.logo} alt="Quick Auto Recovery logo" className="h-12 w-auto" />
+          <img src={IMG.logo} alt="Quick Auto Recovery logo" className="h-20 w-auto" />
         </Link>
         <nav className="hidden lg:flex items-center gap-1">
           {nav.map((n) => (

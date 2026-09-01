@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="mt-24 border-t border-border/60 bg-card/30">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
         <div className="space-y-4">
-          <img src={IMG.logo} alt={`${BRAND} logo`} className="h-14 w-auto" />
+          <img src={IMG.logo} alt={`${BRAND} logo`} className="h-24 w-auto" />
           <p className="text-sm text-muted-foreground">West Yorkshire's trusted 24/7 roadside assistance, vehicle recovery and transport specialists.</p>
         </div>
         <div>
