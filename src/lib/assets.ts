@@ -19,6 +19,7 @@ export const IMG = {
   roadsideAssistance: "/images/roadside-assistance.webp",
   carTowing: "/images/car-towing.webp",
   carAndTowingVan: "/images/car-and-towing-van.webp",
+  galleryRecoveryExtra1: "/images/gallery-recovery-extra-1.webp",
 };
 
 export const PHONE = "+447928725084";

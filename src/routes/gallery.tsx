@@ -19,6 +19,7 @@ function GalleryPage() {
     IMG.accidentRecovery, IMG.flatbedTowing, IMG.luxurySportsCarTransport, IMG.suv4x4Recovery,
     IMG.recoveryToGarage, IMG.recoveryToMechanic, IMG.recoveryToDealership, IMG.luxuryExoticCarTowing,
     IMG.desertOffroadRecovery, IMG.heavyDutyTruckTowing, IMG.commercialVehicleTowing,
+    IMG.galleryRecoveryExtra1,
   ];
   return (
     <SiteLayout>
