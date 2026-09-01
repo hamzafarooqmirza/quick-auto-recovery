@@ -1,5 +1,5 @@
 export const IMG = {
-  logo: "/images/logo.svg",
+  logo: "/images/logo.webp",
   hero: "/images/hero.webp",
   emergencyCarRecovery: "/images/emergency-car-recovery.webp",
   vehicleTowingService: "/images/vehicle-towing-service.webp",
